@@ -1,0 +1,39 @@
+{
+  "name": "algo-mind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Satyam Bansal <satyam@pesto.tech>",
+  "license": "MIT",
+  "homepage": "https://github.com/satyambnsal/algo-mind#readme",
+  "scripts": {
+    "lint": "eslint src/*",
+    "dev": "babel-node src/example.js",
+    "test": "jest",
+    "ci": "yarn run lint && yarn run test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyambnsal/algo-mind.git"
+  },
+  "keywords": [
+    "javascript",
+    "algorithm",
+    "data structure",
+    "algorithm fundamentals",
+    "interview"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "husky": "^4.2.5",
+    "jest": "^26.3.0"
+  },
+  "dependencies": {}
+}
